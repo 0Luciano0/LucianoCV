@@ -34,14 +34,14 @@ let html = document.getElementById("html");
 crearBarra(html);
 let javascript = document.getElementById("javascript");
 crearBarra(javascript);
-let wordpress = document.getElementById("wordpress");
-crearBarra(wordpress);
-let photoshop = document.getElementById("photoshop");
-crearBarra(photoshop);
-let php = document.getElementById("php");
-crearBarra(php);
-let ilustrator = document.getElementById("ilustrator");
-crearBarra(ilustrator);
+let ruby = document.getElementById("ruby");
+crearBarra(ruby);
+let css = document.getElementById("css");
+crearBarra(css);
+let java = document.getElementById("java");
+crearBarra(java);
+let bootstrap = document.getElementById("bootstrap");
+crearBarra(bootstrap);
 
 //Ahora voy a guardar la cantidad de barritas que se van a ir pintando por cada barra
 //para eso utilizo un arreglo, cada posicion pertenece a un elemento
@@ -62,17 +62,17 @@ function efectoHabilidades(){
         const intervalJavascript = setInterval (function(){
             pintarBarra(javascript, 16, 1, intervalJavascript);
         },100);
-        const intervalWordpress = setInterval (function(){
-            pintarBarra(wordpress, 14, 2, intervalWordpress);
+        const intervalRuby = setInterval (function(){
+            pintarBarra(ruby, 14, 2, intervalRuby);
         },100);
-        const intervalPhotoshop = setInterval (function(){
-            pintarBarra(photoshop, 12, 3, intervalPhotoshop);
+        const intervalCss = setInterval (function(){
+            pintarBarra(css, 15, 3, intervalCss);
         },100);
-        const intervalPhp = setInterval (function(){
-            pintarBarra(php, 16, 4, intervalPhp);
+        const intervalJava = setInterval (function(){
+            pintarBarra(java, 16, 4, intervalJava);
         },100);
-        const intervalIlustrator = setInterval (function(){
-            pintarBarra(ilustrator, 16, 5, intervalIlustrator);
+        const intervalBootstrap = setInterval (function(){
+            pintarBarra(bootstrap, 16, 5, intervalBootstrap);
         },100);
     }
 }
